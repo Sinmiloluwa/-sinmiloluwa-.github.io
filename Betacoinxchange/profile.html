@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+     <link rel="shortcut icon" type="image/x-icon" href="imgages/LogoMakr_96ZFQD.png" />
+
+    <title>Betacoinxchange</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!--external css-->
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="assets/css/zabuto_calendar.css">
+    <link rel="stylesheet" type="text/css" href="assets/js/gritter/css/jquery.gritter.css" />
+    <link rel="stylesheet" type="text/css" href="assets/lineicons/style.css">    
+    
+    <!-- Custom styles for this template -->
+    <link href="assets/css/dash.css" rel="stylesheet">
+    <link href="assets/css/style-responsive.css" rel="stylesheet">
+
+    <script src="assets/js/chart-master/Chart.js"></script>
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+  <section id="container" >
+      <!-- **********************************************************************************************************************************************************
+      TOP BAR CONTENT & NOTIFICATIONS
+      *********************************************************************************************************************************************************** -->
+      <!--header start-->
+      <header class="header black-bg">
+              <div class="sidebar-toggle-box">
+                  <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+              </div>
+            <!--logo start-->
+            <a href="index.html" class="logo"><b>Betacoinxchange</b></a>
+            <!--logo end-->
+           
+                    
+            </div>
+            <div class="top-menu">
+            	<ul class="nav pull-right top-menu">
+                    <li><a class="logout" href="index.html">Logout</a></li>
+            	</ul>
+            </div>
+    
+    <div class="top-menu">
+              <ul class="nav pull-right top-menu">
+                    <li><a class="logout" href="dashboard.html">Website</a></li>
+              </ul>
+            </div> 
+
+        </header>
+      <!--header end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN SIDEBAR MENU
+      *********************************************************************************************************************************************************** -->
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse ">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu" id="nav-accordion">
+              
+              	  <p class="centered"><a href="profile.html"><img src="assets/img/ui-sam.jpg" class="img-circle" width="60"></a></p>
+              	  <h5 class="centered">Username</h5>
+              	  	
+                  <li class="mt">
+                      <a class="active" href="profile.html">
+                          <i class="fa fa-dashboard"></i>
+                          <span>Home</span>
+                      </a>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="investments.html" >
+                          <i class="fa fa-desktop"></i>
+                          <span>Investments</span>
+                      </a>
+                    
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="mydetails.html" >
+                          <i class="fa fa-cogs"></i>
+                          <span>My Accounts</span>
+                      </a>
+                      
+                  </li>
+                  <li class="sub-menu">
+                      <a href="contact.html" >
+                          <i class="fa fa-book"></i>
+                          <span>Contact Us</span>
+                      </a>
+                      
+                  </li>
+                  <li class="sub-menu">
+                      <a href="login.html" target="blank" >
+                          <i class="fa fa-tasks"></i>
+                          <span>Logout</span>
+                      </a>
+                      
+                  </li>
+
+                   <li class="sub-menu">
+                      <a href="promotion.html" >
+                          <i class="fa fa-bullhorn"></i>
+                          <span>Promotions</span>
+                      </a>
+                      
+                  </li>
+                  
+                  
+                  <li class="sub-menu">
+                      <a href="faq.html" target="blank" >
+                          <i class="fa fa-question"></i>
+                          <span>F.A.Q</span>
+                      </a>
+                      
+                  </li>
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN CONTENT
+      *********************************************************************************************************************************************************** -->
+      <section id="main-content">
+          <section class="wrapper site-min-height">
+            <h3><i class="fa fa-angle-right"></i> Discover Your Dashboard</h3>
+            <div class="row mt">
+              <div class="col-lg-12">
+
+      <div class="row">
+            <! -- TODO PANEL -->
+            <div class="col-lg-3 col-md-4 col-sm-4 mb">
+              <div class="steps pn">
+                  <script type="text/javascript">
+baseUrl = "https://widgets.cryptocompare.com/";
+var scripts = document.getElementsByTagName("script");
+var embedder = scripts[ scripts.length - 1 ];
+var cccTheme = {"General":{"background":"#333","borderColor":"#545454","borderRadius":"4px 4px 0 0"},"Header":{"background":"#000","color":"#FFF"},"Followers":{"background":"#f7931a","color":"#FFF","borderColor":"#e0bd93","counterBorderColor":"#fdab48","counterColor":"#f5d7b2"},"Data":{"priceColor":"#FFF","infoLabelColor":"#CCC","infoValueColor":"#CCC"},"Chart":{"fillColor":"rgba(86,202,158,0.5)","borderColor":"#56ca9e"},"Conversion":{"background":"#000","color":"#999"}};
+(function (){
+var appName = encodeURIComponent(window.location.hostname);
+if(appName==""){appName="local";}
+var s = document.createElement("script");
+s.type = "text/javascript";
+s.async = true;
+var theUrl = baseUrl+'serve/v1/coin/chart?fsym=BTC&tsym=USD';
+s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+embedder.parentNode.appendChild(s);
+})();
+</script>
+              </div>
+            </div><! --/col-md-4 -->
+            
+            <! -- PROFILE 01 PANEL -->
+            <div class="col-lg-4 col-md-4 col-sm-4 mb">
+              <div class="content-panel pn">
+                <div id="profile-01">
+                  <h3></h3>
+                  <h6>BETACOINXCHANGE</h6>
+                </div>
+                <div class="profile-01 centered">
+                  <p><a href="contact.html">CONTACT US</p></a>
+                </div>
+                <div class="centered">
+                  <h6><i class="fa fa-envelope"></i><br/>support@betacoinxchange.org</h6>
+                </div>
+              </div><! --/content-panel -->
+            </div><! --/col-md-4 -->
+            
+            <! -- PROFILE 02 PANEL -->
+            <div class="col-lg-4 col-md-4 col-sm-4 mb">
+              <div class="content-panel pn">
+                <div id="profile-02">
+                  <div class="user">
+                    
+                    <h4>BETACOINXCHANGE</h4>
+                  </div>
+                </div>
+                <div class="pr2-social centered">
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-dribbble"></i></a>
+                </div>
+              </div><! --/panel -->
+            </div><!--/ col-md-4 -->
+          </div><! --/END 2ND ROW OF PANELS -->
+    
+      </div>
+    </div>
+
+     <div class="row mt">
+                      <!-- SERVER STATUS PANELS -->
+                        <div class="col-md-3 col-sm-4 mb">
+                          <div class="white-panel pn donut-chart">
+                            <div class="white-header">
+                    <h5>Transaction Level</h5>
+                            </div>
+                <div class="row">
+                  <div class="col-sm-6 col-xs-6 goleft">
+                    <p><i class="fa fa-database"></i> 70%</p>
+                  </div>
+                            </div>
+                <canvas id="serverstatus01" height="120" width="120"></canvas>
+                <script>
+                  var doughnutData = [
+                      {
+                        value: 70,
+                        color:"#68dff0"
+                      },
+                      {
+                        value : 30,
+                        color : "#fdfdfd"
+                      }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("serverstatus01").getContext("2d")).Doughnut(doughnutData);
+                </script>
+                          </div><! --/grey-panel -->
+                        </div><!-- /col-md-4-->
+                        
+
+                        <div class="col-md-4 col-sm-4 mb">
+                          <div class="white-panel pn">
+                            <div class="white-header">
+                    <h5>TOP PRODUCT</h5>
+                            </div>
+                <div class="row">
+                  <div class="col-sm-6 col-xs-6 goleft">
+                    <p><i class="fa fa-heart"></i> 122</p>
+                  </div>
+                  <div class="col-sm-6 col-xs-6"></div>
+                            </div>
+                            <div class="centered">
+                    <img src="images/slider/video-player-thumb.jpg" width="120">
+                            </div>
+                          </div>
+                          <div class="profile-01 centered">
+                  <p data-toggle="modal" data-target="#myModal">INVEST NOW</p></a>
+                </div>
+                        </div><!-- /col-md-4 -->
+                        
+            <div class="col-md-4 mb">
+              <!-- WHITE PANEL -  USERNAME -->
+              <div class="white-panel pn">
+                <div class="white-header">
+                  <h5>USERNAME</h5>
+                </div>
+                <p><img src="assets/img/ui-zac.jpg" class="img-circle" width="80"></p>
+                <p><b>Username</b></p>
+                <div class="row">
+                  <div class="col-md-6">
+                    <p class="small mt">MEMBER SINCE</p>
+                    <p>2012</p>
+                  </div>
+                  <div class="col-md-6">
+                    <p class="small mt">TOTAL Trades</p>
+                    <p>$ 47,60</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- /col-md-4 -->
+
+            
+                        
+
+                    </div><!-- /row -->
+                  </section>
+                  </section>
+
+
+
+
+
+<!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Trade your Cryptos</h4>
+        </div>
+        <div class="modal-body">
+        <form>
+          Select Currency type:<br>
+         Ripple(XRP): <input type="radio" name="xrp" value="main">
+         Stellar Lumens (XLM): <input type="radio" name="xrp" value="main">
+         Cardano(ADA): <input type="radio" name="xrp" value="main">
+          IOTA(MIOTA): <input type="radio" name="xrp" value="main">
+          Tether(USDT): <input type="radio" name="xrp" value="main">
+          Tron(TRX): <input type="radio" name="xrp" value="main">
+          NEM(XEM): <input type="radio" name="xrp" value="main">
+          Zcash(ZEC): <input type="radio" name="xrp" value="main">
+          Verge(XVG): <input type="radio" name="xrp" value="main">
+          Zilliqa(ZIL): <input type="radio" name="xrp" value="main">
+          Dogecoin(DOGE): <input type="radio" name="xrp" value="main">
+          Basic Attention Token(BAT): <input type="radio" name="xrp" value="main">
+          Bitmark(BTM): <input type="radio" name="xrp" value="main">
+          0x(ZRX): <input type="radio" name="xrp" value="main">
+          Bitshares(BTS): <input type="radio" name="xrp" value="main">
+          Golem(GNT): <input type="radio" name="xrp" value="main">
+          Digibyte(DGB): <input type="radio" name="xrp" value="main">
+          Rchain(RHOC): <input type="radio" name="xrp" value="main">
+          Mithril(MITH): <input type="radio" name="xrp" value="main">
+          IOStoken(IOST): <input type="radio" name="xrp" value="main">
+        </form>  
+            
+        
+             <div class="row">
+                                <div class="col-md-9">
+                                    <div class="form-group">
+                                        <label for="form_name">How much investment </label>
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Enter amount" required="required" data-error="Firstname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="form-group">
+                                        <label for="form_lastname">Expected Earnings </label>
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder=" " required="required" data-error="Lastname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                          
+
+                            <div class="col-md-9">
+                                    <div class="form-group">
+                                        <label for="form_name">Enter BTC wallet details </label>
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Wallet details *" required="required" data-error="Firstname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+
+                              
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Trade</button>
+        </div>
+      </div>
+    </section>
+      
+
+  </body>
+
+  <footer>
+   <div class="footer-bottom">
+    <h5>Copyright 2018. All rights reserved.</h5>
+    <h6>Design and Developed by Simons</a></h6>
+  </div>
+</footer>
+
+
+
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery-1.8.3.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script class="include" type="text/javascript" src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="assets/js/jquery.scrollTo.min.js"></script>
+    <script src="assets/js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.sparkline.js"></script>
+
+
+    <!--common script for all pages-->
+    <script src="assets/js/common-scripts.js"></script>
+    
+    <script type="text/javascript" src="assets/js/gritter/js/jquery.gritter.js"></script>
+    <script type="text/javascript" src="assets/js/gritter-conf.js"></script>
+
+    <!--script for this page-->
+    <script src="assets/js/sparkline-chart.js"></script>    
+  <script src="assets/js/zabuto_calendar.js"></script>  
+  
+  <script type="text/javascript">
+        $(document).ready(function () {
+        var unique_id = $.gritter.add({
+            // (string | mandatory) the heading of the notification
+            title: 'Welcome to your Dashboard!',
+            // (string | mandatory) the text inside the notification
+            text: 'Hover me to enable the Close Button. You can hide the left sidebar clicking on the button next to the logo. ',
+            // (string | optional) the image to display on the left
+            image: 'assets/img/ui-sam.jpg',
+            // (bool | optional) if you want it to fade out on its own or just sit there
+            sticky: true,
+            // (int | optional) the time you want it to be alive for before fading out
+            time: '',
+            // (string | optional) the class name you want to apply to that specific message
+            class_name: 'my-sticky-class'
+        });
+
+        return false;
+        });
+  </script>
+  
+  <script type="application/javascript">
+        $(document).ready(function () {
+            $("#date-popover").popover({html: true, trigger: "manual"});
+            $("#date-popover").hide();
+            $("#date-popover").click(function (e) {
+                $(this).hide();
+            });
+        
+            $("#my-calendar").zabuto_calendar({
+                action: function () {
+                    return myDateFunction(this.id, false);
+                },
+                action_nav: function () {
+                    return myNavFunction(this.id);
+                },
+                ajax: {
+                    url: "show_data.php?action=1",
+                    modal: true
+                },
+                legend: [
+                    {type: "text", label: "Special event", badge: "00"},
+                    {type: "block", label: "Regular event", }
+                ]
+            });
+        });
+        
+        
+        function myNavFunction(id) {
+            $("#date-popover").hide();
+            var nav = $("#" + id).data("navigation");
+            var to = $("#" + id).data("to");
+            console.log('nav ' + nav + ' to: ' + to.month + '/' + to.year);
+
+
+
+
+$('.close-icon').on('click',function() {
+  $(this).closest('.card').fadeOut();
+})
+
+
+
+    </script>
+
+</html>
